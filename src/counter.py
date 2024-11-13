@@ -7,7 +7,7 @@ class Counter:
         self.value = self.value + 1
 
     def increment(self, amount):
-        self.value = self.value + amount
+        self.value = self.value + int(amount)
 
     def decrease(self):
         self.value = self.value - 1
